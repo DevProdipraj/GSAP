@@ -1,7 +1,0 @@
-gsap.to
-gsap.from
-stagger : value
-Apply CSS Proparty
-repet
-yoyo
-time line()

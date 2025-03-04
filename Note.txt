@@ -1,0 +1,18 @@
+ gsap.to   // to user korle animation start point  theke end point a jabe 
+gsap.from // from use korle animaiton end point theke start point a asbe 
+stagger : value  // stagger use korle group content ake ake animation korle thats meen aktar por akta asbe
+Apply CSS Proparty 
+repet // repet use korle animation koto bar repeat korbe sheyta define kore diya jai repeat a -1  use korle amination infinety time cholbe 
+yoyo    // yoyo use korle animation start point to end point and again start point a asbe je koi bar animation hobe shey koi bar 
+time line()  // time line use kore define kora hoi kon amination ar por kon animation cholbe  . 
+ 
+ 
+ scrollTrigger : { // scrollTrigger user kore scroll ar maddome animation kora hoi 
+        trigger : "#page2", // je  page trigger kora hoi shey page ar referegn
+        scroller : "body", 
+        markers : true, //marker use korle start and end point show kore
+        start : "top 0%", //define start point 
+        end : "top -100%", //define end point
+        scrub : 2,  // scrub use korle animaiton back a return kora hoi 
+        pin : true,  // pin use korle animation content same pogition a fixed kora hoi  
+    }
