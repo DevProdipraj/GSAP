@@ -8,7 +8,7 @@ time line()  // time line use kore define kora hoi kon amination ar por kon anim
  
  
  scrollTrigger : { // scrollTrigger user kore scroll ar maddome animation kora hoi 
-        trigger : "#page2", // je  page trigger kora hoi shey page ar referegn
+        trigger : "#page2", // je  page trigger kora hoi shey page ar reference
         scroller : "body", 
         markers : true, //marker use korle start and end point show kore
         start : "top 0%", //define start point 
